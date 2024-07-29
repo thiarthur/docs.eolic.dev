@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "docs-eolic-dev"
+version = "0.1.0"
+description = ""
+packages = [{include = "eolic"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs-material = "^9.5.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

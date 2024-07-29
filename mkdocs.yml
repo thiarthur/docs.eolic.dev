@@ -1,0 +1,49 @@
+site_name: Eolic
+site_url: https://docs.eolic.dev
+site_description: Event Oriented Link and Integration Controller
+repo_name: thiarthur/eolic
+repo_url: https://github.com/thiarthur/eolic
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/thiarthur/eolic
+theme:
+  name: material
+  font:
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    favicon: fontawesome/brands/git
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+nav:
+  - Introduction: introduction.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api_reference.md
+  - Contributing: contributing.md
+  - License: license.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
